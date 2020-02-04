@@ -1,11 +1,52 @@
 body {
-    display: flex; 
-    flex-direction: column;
     align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Raleway", Helvetica, sans-serif;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+header {
+    background-image: url(images/space.jpg);
+    background-size: 100% 100%;
+    grid-column: 1/4;
 }
 
 .title {
-    font-size: 72pt;
-    color: blue;
+    font-size: 32pt;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+.sub-title {
+    font-size: 24pt;
+    color: white;
+    text-align: center;
+    padding-bottom: 200px;
+}
+.highlight {
+    color: #e31b6d;
+}
+nav {
+    grid-column: 1/4;
+    font-size: 20pt;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: black;
+}
+a {
+    color: white;
+    text-decoration: none; 
+    padding: 10px 30px;
+}
+a:hover {
+    color: #e31b6d;
+    text-decoration: underline;
+}
+.active {
+    color:#e31b6d
+}
+.experience {
+    text-align: center;
+    grid-column: 2/3;
 }
