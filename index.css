@@ -24,6 +24,14 @@ header {
     text-align: center;
     padding-bottom: 200px;
 }
+@media(max-width: 400px) {
+    .title {
+        font-size: 20pt;
+    }
+    .sub-title {
+        font-size: 16pt;
+    }
+}
 .highlight {
     color: #e31b6d;
 }
@@ -46,9 +54,27 @@ a:hover {
 .active {
     color:#e31b6d
 }
+#home-link {
+    text-align: right;
+}
+#about-link {
+    text-align: center;
+}
+#contact-link {
+    text-align: left;
+}
+@media(max-width: 400px) {
+    nav {
+        font-size: 12pt;
+    }
+}
 .experience {
     text-align: center;
-    grid-column: 2/3;
+    grid-column: 1/4;
+}
+.experience-heading {
+    background: #e31b6d;
+    color: white;
 }
 .projects {
     grid-column: 1/4;
@@ -65,8 +91,20 @@ a:hover {
     background: #ddd;
 }
 .projects > ul > li > h3{
-    padding: 20px;
+    padding-top: 20px;
 }
 .projects > ul > li > p{
     padding: 20px;
+}
+.project-subtitle {
+    padding-top: 0 !important;
+}
+footer {
+    color: white;
+    background: cornflowerblue;
+    grid-column: 1/4;
+    text-align: center;
+}
+footer a {
+    padding-bottom: 20px;
 }
