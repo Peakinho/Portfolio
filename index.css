@@ -50,3 +50,23 @@ a:hover {
     text-align: center;
     grid-column: 2/3;
 }
+.projects {
+    grid-column: 1/4;
+}
+.projects > ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+.projects > ul > li {
+    background: grey;
+}
+.projects > ul > li:nth-child(odd) {
+    background: #ddd;
+}
+.projects > ul > li > h3{
+    padding: 20px;
+}
+.projects > ul > li > p{
+    padding: 20px;
+}
