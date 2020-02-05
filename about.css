@@ -1,0 +1,7 @@
+#about-header {
+    background-image: url(images/about-header.jpeg);
+}
+.about-main {
+    text-align: center;
+    grid-column: 2/3;
+}
