@@ -34,8 +34,20 @@ header {
         font-size: 16pt;
     }
 }
+}
+@media(max-width: 300px) {
+    .title {
+        font-size: 16pt;
+    }
+    .sub-title {
+        font-size: 12pt;
+    }
+}
 .highlight {
     color: #e31b6d;
+}
+.highlight-2 {
+    color: cornflowerblue;
 }
 nav {
     grid-column: 1/4;
@@ -68,6 +80,11 @@ a:hover {
 @media(max-width: 500px) {
     nav {
         font-size: 12pt;
+    }
+}
+@media(max-width: 350px) {
+    nav a {
+        padding: 5px; 
     }
 }
 .experience {
