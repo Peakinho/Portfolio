@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+}
+#contact-header {
+    background-image: url(images/contact-header.jpeg);
+}
+#contact-me {
+    grid-column: 1/4;
+}
+#email {
+    padding-bottom: 20px;
+}
+#twitter {
+    padding-bottom: 20px;
+}
+#linkedin {
+    padding-bottom: 20px;
+}
+@media (max-width: 750px) {
+    #linkedin {
+        grid-column: 1/2
+    }
+}
+@media (max-width: 450px) {
+    #twitter{
+        grid-column: 1/2
+    }
+}
